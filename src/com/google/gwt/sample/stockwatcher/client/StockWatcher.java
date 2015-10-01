@@ -57,6 +57,7 @@ public class StockWatcher implements EntryPoint {
 				if (loginInfo.isLoggedIn()) {
 					loadStockWatcher();
 				} else {
+					loadLogin();
 					/**
 					 * NOW I MAKE SOME CHANGE HERE
 					 */
